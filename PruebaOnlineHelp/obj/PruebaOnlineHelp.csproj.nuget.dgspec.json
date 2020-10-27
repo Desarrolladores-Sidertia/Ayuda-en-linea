@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\pruebas\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj": {}
+    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\pruebas\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj": {
+    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\pruebas\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
+        "projectUniqueName": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
         "projectName": "PruebaOnlineHelp",
-        "projectPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\pruebas\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
+        "projectPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
         "packagesPath": "C:\\Users\\pparra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\pruebas\\PruebaOnlineHelp\\obj\\",
+        "outputPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pparra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,18 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [

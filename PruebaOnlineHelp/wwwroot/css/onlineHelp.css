@@ -1,0 +1,91 @@
+#divHelpIcon {
+    position: fixed;
+    top: 3.3em;
+    right: 1%;
+    transition: 1s;
+    z-index: 999999999;
+}
+
+#helpIcon {
+    background-image: url("./interrogacion.png");
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    background-position: center;
+    background-size: cover;
+    background: white;
+    color: rgb(30,121,218);
+    transition: .3s;
+}
+
+#helpIcon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background: rgb(30,121,218);
+    border: 2px solid  rgb(30,121,218);
+    color: white;
+}
+
+#divHelp {
+    border: 1px solid black;
+    width: 40%;
+    top: 3.3em;
+    right: -50%;
+    position: fixed;
+    background: white;
+    overflow: scroll;
+    height: 90%;
+    transition: 1s;
+    z-index: 999999999;
+}
+
+#divHelp > div#divHeader {
+    height: 1.5em;
+    top: 0;
+    position: sticky;
+    border-bottom: 1px solid black;
+    background: white;
+}
+
+#divHelp > div > svg {
+    float: right;
+    height: 100%;
+    margin-right: .5em;
+    border: 1px solid;
+    width: auto;
+    color: tomato;
+}
+
+#divHelp > div > svg:hover {
+    cursor: pointer;
+    background: tomato;
+    color: white;
+    border: 1px solid tomato;
+}
+/*#divHelp > div > header {
+    padding-right: .5em;
+    float: right;
+    text-decoration: underline;
+    position: relative;
+    width: fit-content;
+}
+
+#divHelp > div > header:hover {
+    cursor: pointer;
+    color: blue;
+}
+*/
+#divHelp > div#divHelpTxt {
+    padding: 0em 1em;
+}
+
+#divHelp::-webkit-scrollbar{
+    width: .25em;
+}
+   
+#divHelp::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 5px;
+}
