@@ -9,20 +9,23 @@
 #helpIcon {
     background-image: url("./interrogacion.png");
     background-repeat: no-repeat;
-    border: 0px;
+    border: 2px solid white;
+    border-radius: 50%;
     height: 3em;
     width: 3em;
     background-position: center;
     background-size: cover;
-    background-color: white;
+    background: white;
+    color: rgb(30,121,218);
     transition: .3s;
 }
 
 #helpIcon:hover {
-   /* height: 3.5em;
-    width: 3.5em;*/
     transform: scale(1.2);
     cursor: pointer;
+    background: rgb(30,121,218);
+    border: 2px solid  rgb(30,121,218);
+    color: white;
 }
 
 #divHelp {

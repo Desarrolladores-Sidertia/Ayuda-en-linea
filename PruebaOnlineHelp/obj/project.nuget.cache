@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HL5rfzrRxz25wo4bAT8b6FUQLMiKFhYsgEAXPNKPMGHVNPyQoKHmqF7knt8CV8K295nO65BvfexIOZoR/XjuCQ==",
+  "dgSpecHash": "CCJCLCIhnTevjW5jd1+LfWOcGAVPFsqXb9TsviFsndyVT1lWb/NjRctPTRN9V5uO/5FavMfqZcFx/G9Z8Zmd6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\pruebas\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
+  "projectFilePath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pparra\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\pparra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
