@@ -42,14 +42,29 @@
 }
 
 #divHelp > div#divHeader {
-    height: 1.2em;
+    height: 1.5em;
     top: 0;
     position: sticky;
     border-bottom: 1px solid black;
     background: white;
 }
 
-#divHelp > div > header {
+#divHelp > div > svg {
+    float: right;
+    height: 100%;
+    margin-right: .5em;
+    border: 1px solid;
+    width: auto;
+    color: tomato;
+}
+
+#divHelp > div > svg:hover {
+    cursor: pointer;
+    background: tomato;
+    color: white;
+    border: 1px solid tomato;
+}
+/*#divHelp > div > header {
     padding-right: .5em;
     float: right;
     text-decoration: underline;
@@ -61,7 +76,7 @@
     cursor: pointer;
     color: blue;
 }
-
+*/
 #divHelp > div#divHelpTxt {
     padding: 0em 1em;
 }
