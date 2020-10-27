@@ -56,9 +56,7 @@ function createHelp() {
         document.getElementsByTagName("body")[0].insertBefore(divHelp, document.getElementsByTagName("body")[0].firstChild.nextSibling);
 
 
-   // } else {
-       // alert("no crear");
-    //}
+   // }
 }
 
 const urlParams = new URLSearchParams(window.location.search);
