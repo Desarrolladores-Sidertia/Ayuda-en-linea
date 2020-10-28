@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj": {}
+    "C:\\Users\\iaraujo\\Desktop\\prueba\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj": {
+    "C:\\Users\\iaraujo\\Desktop\\prueba\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
+        "projectUniqueName": "C:\\Users\\iaraujo\\Desktop\\prueba\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
         "projectName": "PruebaOnlineHelp",
-        "projectPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
-        "packagesPath": "C:\\Users\\pparra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\obj\\",
+        "projectPath": "C:\\Users\\iaraujo\\Desktop\\prueba\\Ayuda-en-linea\\PruebaOnlineHelp\\PruebaOnlineHelp.csproj",
+        "packagesPath": "C:\\Users\\iaraujo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iaraujo\\Desktop\\prueba\\Ayuda-en-linea\\PruebaOnlineHelp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pparra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iaraujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
