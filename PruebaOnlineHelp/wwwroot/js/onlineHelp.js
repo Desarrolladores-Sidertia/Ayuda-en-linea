@@ -1,4 +1,5 @@
 var queryString;
+var helpIsVisible = false;
 
 document.addEventListener("readystatechange", loadEvents, false);
 function loadEvents(event){
@@ -6,6 +7,7 @@ function loadEvents(event){
         createHelp();
         document.getElementById("helpIcon").addEventListener("click", showOnlineHelp, false);
         document.getElementById("closeHelp").addEventListener("click", hideOnlineHelp, false);
+        window.addEventListener("click", hideOnlineHelpOut);
     }
     
 }
@@ -15,6 +17,7 @@ function showOnlineHelp(event) {
    // document.getElementById("divHelp").style.display = "block";
     document.getElementById("divHelpIcon").style.right = "-50%";
     document.getElementById("divHelp").style.right = "0";
+    helpIsVisible = true;
 }
 
 function hideOnlineHelp(event) {
@@ -22,6 +25,16 @@ function hideOnlineHelp(event) {
     //document.getElementById("divHelp").style.display = "none";
     document.getElementById("divHelpIcon").style.right = "1%";
     document.getElementById("divHelp").style.right = "-50%";
+    helpIsVisible = false;
+}
+
+function hideOnlineHelpOut(event) {
+    if(helpIsVisible){
+        if(!document.getElementById("divHelp").contains(event.target) && !document.getElementById("divHelpIcon").contains(event.target)){
+            hideOnlineHelp();
+        }
+    }
+    
 }
 
 function createHelp() {
