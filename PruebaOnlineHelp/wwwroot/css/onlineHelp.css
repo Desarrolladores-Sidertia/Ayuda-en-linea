@@ -54,6 +54,7 @@
     height: 100%;
     margin-right: .5em;
     border: 1px solid;
+    border-radius: 10%;
     width: auto;
     color: tomato;
 }
@@ -89,3 +90,24 @@
     background: red; 
     border-radius: 5px;
 }
+
+
+/*********************PRUEBAS*********************/
+img[alt*="PrivacidadLogo"] {
+    height: 1.52em;
+    width: 2em;
+}
+
+img[alt*="Privacy"] {
+    display: block;
+    margin: auto;
+}
+
+img[alt="imgtxt"] {
+    height: 1.5em;
+}
+
+img[alt="imgtxt-sm"] {
+    height: 2em;
+}
+

@@ -148,3 +148,6 @@ C:\Users\pparra\Documents\PROYECTO-AYUDA\gitHub\Ayuda-en-linea\PruebaOnlineHelp\
 C:\Users\pparra\Documents\PROYECTO-AYUDA\gitHub\Ayuda-en-linea\PruebaOnlineHelp\obj\Debug\netcoreapp3.1\PruebaOnlineHelp.dll
 C:\Users\pparra\Documents\PROYECTO-AYUDA\gitHub\Ayuda-en-linea\PruebaOnlineHelp\obj\Debug\netcoreapp3.1\PruebaOnlineHelp.pdb
 C:\Users\pparra\Documents\PROYECTO-AYUDA\gitHub\Ayuda-en-linea\PruebaOnlineHelp\obj\Debug\netcoreapp3.1\PruebaOnlineHelp.genruntimeconfig.cache
+C:\Users\pparra\Documents\PROYECTO-AYUDA\gitHub\Ayuda-en-linea\PruebaOnlineHelp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Pagina1.cshtml.g.cs
+C:\Users\pparra\Documents\PROYECTO-AYUDA\gitHub\Ayuda-en-linea\PruebaOnlineHelp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Pagina2.cshtml.g.cs
+C:\Users\pparra\Documents\PROYECTO-AYUDA\gitHub\Ayuda-en-linea\PruebaOnlineHelp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Pagina3.cshtml.g.cs

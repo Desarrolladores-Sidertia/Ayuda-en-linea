@@ -1,9 +1,11 @@
-var queryString;
+var queryString = "";
 var helpIsVisible = false;
+var markdownText = ""
 
 document.addEventListener("readystatechange", loadEvents, false);
 function loadEvents(event){
     if(document.readyState=="complete"){
+        createMarkdownContent();
         createHelp();
         document.getElementById("helpIcon").addEventListener("click", showOnlineHelp, false);
         document.getElementById("closeHelp").addEventListener("click", hideOnlineHelp, false);
@@ -38,7 +40,7 @@ function hideOnlineHelpOut(event) {
 }
 
 function createHelp() {
-    //if(urlParams.toString()!=="") {
+    if(queryString!=="") {
         var divHelpIcon = document.createElement("div");
         divHelpIcon.setAttribute("id","divHelpIcon");
         /*var helpIcon = document.createElement("button")
@@ -63,22 +65,53 @@ function createHelp() {
 
         divHelpMarkdown = document.createElement("div");
         divHelpMarkdown.setAttribute("id","divHelpTxt")
-        markdownText = '# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n'
+        //markdownText = '# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n\n# Lista : \n- Elemento 1\n    - __Elemento 1.1__ \n- Elemento 2.\n'
         divHelpMarkdown.innerHTML = marked(markdownText);
         divHelp.appendChild(divHelpMarkdown);
 
         document.getElementsByTagName("body")[0].insertBefore(divHelp, document.getElementsByTagName("body")[0].firstChild.nextSibling);
-
-
-   // }
+     }
 }
 
-const urlParams = new URLSearchParams(window.location.search);
+function createMarkdownContent() {
+    switch (queryString) {
+        case "Home/Privacy":
+            markdownText = " ## Ayuda para Privacy ![PrivacidadLogo](../img/privacidad.png) \n ![Privacy](../img/privacidad.png) \n ### Tu privacidad nos importa";
+            break;
+        case "Home/Pagina1":
+            markdownText = "### Añadir nuevo elemento \n ___ \n 1. Haga click en ![imgtxt](../img/AddButton.png) \n 2. Espere mientras cargan los datos ![imgtxt](../gifs/cargando.gif)  \n 3. Rellene los campos \n 4. Asegúrese de que los valores son correctos ![imgtxt-sm](../gifs/ok.gif) \n 4. Si no te ha servido, busca en [Google](http://www.google.com) \n\n### Modificar elemento existente \n ___ \n 1. Haga click en ![imgtxt](../img/EditButton.png) \n 2. Espere mientras cargan los datos ![imgtxt](../gifs/cargando.gif)  \n 3. Rellene los campos \n 4. Asegúrese de que los valores son correctos ![imgtxt-sm](../gifs/ok.gif) \n 4. Si no te ha servido, busca en [Google](http://www.google.com) \n\n### Borrar elemento existente \n ___ \n 1. Haga click en ![imgtxt](../img/DeleteButton.png) \n 2. Espere mientras cargan los datos ![imgtxt](../gifs/cargando.gif)  \n 3. Rellene los campos \n 4. Asegúrese de que los valores son correctos ![imgtxt-sm](../gifs/ok.gif) \n 4. Si no te ha servido, busca en [Google](http://www.google.com)";
+            break;
+        case "Home/Pagina2":
+            markdownText = " ## Ayuda para Página 2";
+            break;
+        default:
+            markdownText = " ## No existe ayuda para esta página. \n ###### Estamos trabajando en ello. Disculpe las molestias. \n ![Trabajando](../gifs/trabajando.gif)";
+            break;
+    }
+}
 
+const urlParams = new URLSearchParams(window.location.pathname);
+//alert("urlParams: "+urlParams);
 function filtrateQueryString() {
     var urlParamsToString = urlParams.toString();
-    var queryStringParts = urlParamsToString.split("/")
+    var queryStringParts = urlParamsToString.split("%2F");
+    queryStringParts.shift();
+    queryStringParts[queryStringParts.length - 1] = queryStringParts[queryStringParts.length - 1].replace("=","");
+    /*for(p in queryStringParts) {
+        alert(queryStringParts[p]);
+    }
+    alert(queryStringParts.length);*/
+    for(var i = (queryStringParts.length - 1); i >= 0; i -- ) {
+        if(i != 0) {
+            queryString = "/"+queryStringParts[i] + queryString;
+        } else {
+            queryString = queryStringParts[i] + queryString;
+        }
+         
+    }
 }
+
+filtrateQueryString();
 /*//var urlParams = window.location;
 alert(urlParams);
 alert("toString : "+urlParams.toString());
