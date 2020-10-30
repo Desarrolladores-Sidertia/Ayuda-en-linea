@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v6zSCmrZg+2mEtZ4cno5LoPRhHuh+7TAH2L15soiVmSK63nPJPPLHei5IflurX1BdpGLaLuZ939j9kfkE1S1Lw==",
+  "dgSpecHash": "Hym/nX5S9neg9cFVBN5KkVgAztIb69zaS64+gY8cFRFXQTva1yhM7ZOm63w1z4/JilG/ChPzQ4nk+qZwQK8z+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\EJEMPLO\\helper-module\\helper-module.csproj",
+  "projectFilePath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\ApiRest\\helper-module\\helper-module.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pparra\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\pparra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

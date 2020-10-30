@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\EJEMPLO\\helper-module\\helper-module.csproj": {}
+    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\ApiRest\\helper-module\\helper-module.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\EJEMPLO\\helper-module\\helper-module.csproj": {
+    "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\ApiRest\\helper-module\\helper-module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\EJEMPLO\\helper-module\\helper-module.csproj",
+        "projectUniqueName": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\ApiRest\\helper-module\\helper-module.csproj",
         "projectName": "helper-module",
-        "projectPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\EJEMPLO\\helper-module\\helper-module.csproj",
+        "projectPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\ApiRest\\helper-module\\helper-module.csproj",
         "packagesPath": "C:\\Users\\pparra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\EJEMPLO\\helper-module\\obj\\",
+        "outputPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\ApiRest\\helper-module\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pparra\\AppData\\Roaming\\NuGet\\NuGet.Config",

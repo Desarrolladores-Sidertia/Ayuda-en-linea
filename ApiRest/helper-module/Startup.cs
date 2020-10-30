@@ -50,6 +50,13 @@ namespace PruebaOnlineHelp
             /*var connection ="User ID=postgres;Password=123abc.;Host=localhost;Port=5432;Database=myDataBase;Pooling=true;";
             services.AddDbContext<MyDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString(connection)));*/
+             /* CORS */
+ 
+            services.AddCors(options => options.AddDefaultPolicy(
+                builder => builder.AllowAnyOrigin() ));
+ 
+            /* end CORS */
+
             services.AddSwaggerGen();
             services.AddScoped<IDataAccessProvider, DataAccessProvider>(); 
         }
@@ -78,6 +85,7 @@ namespace PruebaOnlineHelp
             context.Database.EnsureCreated();*/
 
             app.CreateDatabase();
+            app.UseCors();
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {

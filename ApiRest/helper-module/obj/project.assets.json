@@ -1938,11 +1938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\EJEMPLO\\helper-module\\helper-module.csproj",
+      "projectUniqueName": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\ApiRest\\helper-module\\helper-module.csproj",
       "projectName": "helper-module",
-      "projectPath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\EJEMPLO\\helper-module\\helper-module.csproj",
+      "projectPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\ApiRest\\helper-module\\helper-module.csproj",
       "packagesPath": "C:\\Users\\pparra\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\EJEMPLO\\helper-module\\obj\\",
+      "outputPath": "C:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\ApiRest\\helper-module\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pparra\\AppData\\Roaming\\NuGet\\NuGet.Config",
