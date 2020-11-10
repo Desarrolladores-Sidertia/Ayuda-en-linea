@@ -33,6 +33,19 @@ namespace PruebaOnlineHelp.Controllers
             return View();
         }
 
+        [Route("/Home/Pagina1/Pagina1b", Name = "Pagina1b")]
+        public IActionResult Pagina1b()
+        {
+            return View();
+        }
+
+        [Route("/Home/Pagina1/Pagina1Distinto", Name = "Pagina1Distinto")]
+        public IActionResult Pagina1Distinto()
+        {
+            return View();
+        }
+
+
         public IActionResult Pagina2()
         {
             return View();

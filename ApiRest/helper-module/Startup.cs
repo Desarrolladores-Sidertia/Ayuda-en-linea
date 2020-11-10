@@ -44,7 +44,7 @@ namespace PruebaOnlineHelp
             });
             //options.UseLoggerFactory(LoggerFactory.Create(builder =>builder.AddConsole())); // esta linea es para depurar las queries
             });*/
-            //services.AddScoped<IDataAccessProvider, DataAccessProvider>();
+            services.AddScoped<IDataAccessProvider, DataAccessProvider>();
             
             
             /*var connection ="User ID=postgres;Password=123abc.;Host=localhost;Port=5432;Database=myDataBase;Pooling=true;";

@@ -111,3 +111,6 @@ img[alt="imgtxt-sm"] {
     height: 2em;
 }
 
+img[alt="ilustracion"] {
+    max-width: -webkit-fill-available;
+}
