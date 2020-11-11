@@ -15,7 +15,6 @@ function loadEvents(event){
 
 function helpEvents() {
     document.getElementById("helpIcon").addEventListener("click", showOnlineHelp, false);
-    document.getElementById("closeHelp").addEventListener("click", hideOnlineHelp, false);
     window.addEventListener("click", hideOnlineHelpOut);
 }
 
