@@ -28,7 +28,7 @@ namespace PruebaOnlineHelp.Models
         public Applications Application { get; set; }
 
         [Column(TypeName = "UUID")]
-        public Guid PublicId { get; set; }
+        public Guid? PublicId { get; set; }
 
         [Column(TypeName = "VARCHAR")]
         [StringLength(512)]
