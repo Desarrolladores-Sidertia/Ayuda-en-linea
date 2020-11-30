@@ -40,5 +40,6 @@ namespace PruebaOnlineHelp.Models
 
         [Column(TypeName = "TEXT")]
         public string HelpContentMD { get; set; }
+        public int Order { get; set; }
     }
 }

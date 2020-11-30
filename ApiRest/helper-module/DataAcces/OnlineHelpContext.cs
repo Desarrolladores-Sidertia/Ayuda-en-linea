@@ -14,7 +14,16 @@ namespace PruebaOnlineHelp.Models
 
             protected override void OnModelCreating(ModelBuilder builder)  
             {  
-                base.OnModelCreating(builder);  
+                base.OnModelCreating(builder);
+                builder.Entity<HelpContent>()
+                    .Property(h => h.Language)
+                    .HasDefaultValue("es-Es");
+                builder.Entity<HelpContent>()
+                    .Property(h => h.QueryString)
+                    .HasDefaultValue("\"");
+                builder.Entity<HelpContent>()
+                    .Property(h => h.HelpContentMD)
+                    .HasDefaultValue("\"");
             }  
     
             public override int SaveChanges()  

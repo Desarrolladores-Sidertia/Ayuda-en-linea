@@ -1,8 +1,126 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <ul class="navbar-nav flex-grow-1">
+        <li>
+            <h3>ZONA DE ADMINISTRACIÓN</h3>
+            <h5>Usuario con Rol Administrador (Sólo aplica a la modalidad ANA On-Premise) [adminprueba]</h5>
+            <ul>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="WorkspaceDefinition" asp-action="Index">Espacios de trabajo (/WorkspaceDefinition)</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Manage" asp-action="Index">Usuarios (/Manage/Index)</a>
+                </li>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="UploadMedia" asp-action="Index">Importación de imágenes (/UploadMedia)</a>
+                </li>
+                <li>Importación de CPE (sin acceso a querystring)</li>
+                <li>Importación de CVE (sin acceso a querystring)</li>
+            </ul>
+            <h5>Usuario con Rol Administrador de Espacio de Trabajo (Sólo aplica a la modalidad ANA On-Premise) [wsadminprueba]</h5>
+            <ul>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Manage" asp-action="WorkspaceUserManagement">Gestión de usuarios (/Manage/WorkspaceUserManagement)</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Manage" asp-action="UserAudit">Auditoría de usuarios (Manage/UserAudit)</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="UploadMedia" asp-action="Index">Importación de imágenes (/UploadMedia)</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="FinalSeverity" asp-action="Index">Baremos de Calculadora Personalizada (/FinalSeverity)</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Certificate" asp-action="Index">Expedición de Certificados para ANA Global (/Certificate)</a>
+                </li>
+            </ul>
+            <h5>Usuario con Rol Propietario del Espacio de Trabajo [pentester@sdtinternal.com]</h5>
+            <ul>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="EmailProfile" asp-action="Index">Gestión de perfiles de Email (/EmailProfile)</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="AlertDefinition" asp-action="Index">Gestión de definiciones de alertas (/AlertDefinition)</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="BSCService" asp-action="Index">Gestión de Servicios de Negocio (/BSCService)</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Question" asp-action="Index">Gestión de Definiciones de parámetros de Cálculo de negocio (/Question)</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>ZONA DE INICIALIZACIÓN</h3>
+            <ul>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="AuditType" asp-action="Index">Tipos de Auditoría (/AuditType)</a>
+                </li>
+                <li>Tipos de Activos (/AssetType)
+                    <ul>
+                        <li>Crear Activo (/AssetType/Create)</li>
+                        <li>
+                            Editar Activo:
+                            <ul>
+                                <li>abcd-1234-5678-efgh (/AssetType/Edit/abcd-1234-5678-efgh)</li>
+                                <li>zyxw-98765-vutsr-4321 (/AssetType/Edit/zyxw-98765-vutsr-4321)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Tipos de Estado</li>
+                <li>Tipos de Criticidad</li>
+                <li>Zona de Traducciones</li>
+            </ul>
+        </li>
+    </ul>
+        </li>
+        <li>
+            <h3>ZONA DE TRABAJO</h3>
+            
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="UploadMedia" asp-action="Index">Subir Imágenes</a>
+        </li>
+        <hr>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="FinalSeverity" asp-action="Index">Calculadora Personalizada</a>
+        </li>
+        <hr>
+        <li class="nav-item">
+            <span>Manage</span>
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Manage" asp-action="WorkspaceUserManagement">Gestión usuarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Manage" asp-action="UserAudit">User Audit</a>
+                </li>
+            </ul>
+        </li>
+        <hr>
+        <li class="nav-item">
+            <span>Audit Type</span>
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="AuditType" asp-action="Index">Auditoría de usuarios</a>
+                    <ul>
+                        <li>
+                             <a class="nav-link text-dark" asp-area="" asp-controller="AuditType" asp-action="Category">Audit Category</a>
+                             <ul>
+                                 <li>
+                                     <a class="nav-link text-dark" asp-area="" asp-controller="AuditType" asp-action="AppWebAuthenticationTesting">Audit Category Test</a>
+                                 </li>
+                             </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>

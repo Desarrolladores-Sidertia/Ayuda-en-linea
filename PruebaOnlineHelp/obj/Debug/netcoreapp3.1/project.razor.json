@@ -14392,8 +14392,53 @@
   "RootNamespace": "PruebaOnlineHelp",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\AuditType\\ChannelAndPathErrors.cshtml",
+      "TargetPath": "Views\\AuditType\\ChannelAndPathErrors.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\WorkSpaceDefinition\\Index.cshtml",
+      "TargetPath": "Views\\WorkSpaceDefinition\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Home\\Pagina3.cshtml",
       "TargetPath": "Views\\Home\\Pagina3.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\UploadMedia\\Index.cshtml",
+      "TargetPath": "Views\\UploadMedia\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\AlertDefinition\\Index.cshtml",
+      "TargetPath": "Views\\AlertDefinition\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Manage\\WorkspaceUserManagement.cshtml",
+      "TargetPath": "Views\\Manage\\WorkspaceUserManagement.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Certificate\\Index.cshtml",
+      "TargetPath": "Views\\Certificate\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\EmailProfile\\Index.cshtml",
+      "TargetPath": "Views\\EmailProfile\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\AuditType\\AppWebCategory.cshtml",
+      "TargetPath": "Views\\AuditType\\AppWebCategory.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\BSCService\\Index.cshtml",
+      "TargetPath": "Views\\BSCService\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14402,8 +14447,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\AuditType\\AuditPuestoTrabajo.cshtml",
+      "TargetPath": "Views\\AuditType\\AuditPuestoTrabajo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Home\\Pagina1.cshtml",
       "TargetPath": "Views\\Home\\Pagina1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Manage\\UserAudit.cshtml",
+      "TargetPath": "Views\\Manage\\UserAudit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\FinalSeverity\\Index.cshtml",
+      "TargetPath": "Views\\FinalSeverity\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14419,6 +14479,11 @@
     {
       "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\AuditType\\AppWebAuthenticationTesting.cshtml",
+      "TargetPath": "Views\\AuditType\\AppWebAuthenticationTesting.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14449,6 +14514,21 @@
     {
       "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Question\\Index.cshtml",
+      "TargetPath": "Views\\Question\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\AuditType\\Index.cshtml",
+      "TargetPath": "Views\\AuditType\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Manage\\Index.cshtml",
+      "TargetPath": "Views\\Manage\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -113,4 +113,12 @@ img[alt="imgtxt-sm"] {
 
 img[alt="ilustracion"] {
     max-width: -webkit-fill-available;
+    display: block;
+    margin: 1em auto;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: .3em solid grey;
+    padding-left: .5em;
 }

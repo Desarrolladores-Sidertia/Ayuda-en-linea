@@ -18,7 +18,7 @@
     "PruebaOnlineHelp": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:6003;http://localhost:6000",
+      "applicationUrl": "https://localhost:7003;http://localhost:7000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
