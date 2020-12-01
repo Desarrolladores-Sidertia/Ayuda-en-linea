@@ -58,11 +58,26 @@ function createMarkdownContent() {
     if(markdownText==""){
         markdownText = " ## No existe ayuda para esta página. \n ###### Estamos trabajando en ello. Disculpe las molestias. \n ![Trabajando](../gifs/trabajando.gif)"; 
     }
+    pdfDownload = document.createElement("button");
+    pdfDownload.setAttribute("class","btn btn-sm btn-danger");
+    pdfDownload.setAttribute("id","pdfDownload");
+    pdfDownload.innerHTML="Descargar toda la ayuda en PDF";
     divHelpMarkdown = document.createElement("div");
     divHelpMarkdown.setAttribute("id","divHelpTxt")
     divHelpMarkdown.innerHTML = marked(markdownText);
+    document.getElementById("divHelp").appendChild(pdfDownload);
     document.getElementById("divHelp").appendChild(divHelpMarkdown);
+
+    pdfDownloadEvents();
 }
+
+function pdfDownloadEvents() {
+   $('#pdfDownload').click(function () {
+       window.open("https://localhost:7003/Home/DownloadHelp")
+   })
+}
+
+
 
 const urlParams = new URLSearchParams(window.location.pathname);
 

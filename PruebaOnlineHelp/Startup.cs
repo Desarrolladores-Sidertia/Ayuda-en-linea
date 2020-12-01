@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PruebaOnlineHelp.Models;
-using Database.src.Model;
+//using Database.src.Model;
 using System.Reflection;
 
 namespace PruebaOnlineHelp
@@ -39,7 +39,7 @@ namespace PruebaOnlineHelp
             /*var connection ="User ID=postgres;Password=123abc.;Host=localhost;Port=5432;Database=myDataBase;Pooling=true;";
             services.AddDbContext<MyDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString(connection)));*/
-            services.AddSwaggerGen();
+            //services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -65,13 +65,13 @@ namespace PruebaOnlineHelp
             /*var context = app.ApplicationServices.GetService<MyDbContext>();
             context.Database.EnsureCreated();*/
 
-            app.CreateDatabase();
-            app.UseSwagger();
+            //app.CreateDatabase();
+            /*app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
                 //c.RoutePrefix = string.Empty;
-            });
+            });*/
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

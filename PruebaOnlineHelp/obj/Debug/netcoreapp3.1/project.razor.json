@@ -14427,6 +14427,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\Home\\DownloadHelp.cshtml",
+      "TargetPath": "Views\\Home\\DownloadHelp.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pparra\\Documents\\PROYECTO-AYUDA\\gitHub\\Ayuda-en-linea\\PruebaOnlineHelp\\Views\\EmailProfile\\Index.cshtml",
       "TargetPath": "Views\\EmailProfile\\Index.cshtml",
       "FileKind": "mvc"
