@@ -34,16 +34,13 @@ namespace OnlineHelp.DataAccess
         {  
             return _context.HelpContent.ToList();  
         }
-        /*****************************/
 
-       /* public Applications GetApplicationsSingleRecord(int id)
+        public List<string> GetHelpContentRecordsByApplicationId(int id)
         {
-            throw new System.NotImplementedException();
-        }*/
-
-       /* List<Applications> IDataAccessProvider.GetApplicationsRecords()
-        {
-            throw new System.NotImplementedException();
-        }*/
+            return _context.HelpContent.Where(hc => hc.Application.Id == id)
+                    .OrderBy(p => p.Order)
+                    .Select( p =>p.HelpContentMD)
+                    .ToList();
+        }
     }  
 }  

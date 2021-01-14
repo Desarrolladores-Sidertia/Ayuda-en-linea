@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,8 @@ namespace PruebaOnlineHelp.Models
             [StringLength(256)]
             public string Application { get; set; }
 
+            public ICollection<HelpContent> HelpContent { get; set; }
+
         }
 
     public class HelpContent
@@ -25,6 +28,10 @@ namespace PruebaOnlineHelp.Models
         [Key]
         public int Id { get; set; }
 
+        
+        /*public int AppId { get; set; }
+
+        [ForeignKey("ApplicationId")]*/
         public Applications Application { get; set; }
 
         [Column(TypeName = "UUID")]

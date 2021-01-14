@@ -8,6 +8,7 @@ namespace OnlineHelp.DataAccess
         Applications GetApplicationsSingleRecord(int id);  
         List<Applications> GetApplicationsRecords(); 
         HelpContent GetHelpContentSingleRecord(string queryString);  
-        List<HelpContent> GetHelpContentRecords(); 
+        List<HelpContent> GetHelpContentRecords();
+        List<string> GetHelpContentRecordsByApplicationId(int id); 
     }  
 }  

@@ -48,6 +48,12 @@ namespace OnlineHelp.Controllers {
         public HelpContent Details(string QueryString)  
         {  
             return _dataAccessProvider.GetHelpContentSingleRecord(QueryString);  
+        }
+
+        [HttpGet("app/{Id}")]  
+        public List<string> DetailsId(int id)  
+        {  
+            return _dataAccessProvider.GetHelpContentRecordsByApplicationId(id);
         }  
     }
     
