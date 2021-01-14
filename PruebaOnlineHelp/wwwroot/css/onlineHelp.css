@@ -122,3 +122,6 @@ blockquote {
     border-left: .3em solid grey;
     padding-left: .5em;
 }
+
+/************IMPRIMIR************/
+@media print { @page { margin: .6cm; } body { margin: 1cm; } }

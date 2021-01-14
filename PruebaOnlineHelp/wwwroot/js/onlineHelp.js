@@ -100,7 +100,7 @@ function filtrateQueryString() {
 function searchHelp() {
     var peticion=new XMLHttpRequest();
 	peticion.addEventListener("readystatechange",searchHelpResponse,false);
-	peticion.open("GET","https://localhost:5001/api/HelpContent/"+queryString,false);
+	peticion.open("GET","https://localhost:6001/api/HelpContent/"+queryString,false);
 	peticion.send(null);
 }
 
@@ -114,7 +114,7 @@ function loadJson(){
     if(llamada == false) {
         var peticion=new XMLHttpRequest();
         peticion.addEventListener("readystatechange",loadJsonResponse,false);
-        peticion.open("GET","https://localhost:5001/api/HelpContent/"+queryString,true);
+        peticion.open("GET","https://localhost:6001/api/HelpContent/"+queryString,true);
         peticion.send(null);
         llamada = true;
     }
